@@ -9,7 +9,7 @@ public class CreateFile {
         try {
             File cr = new File("java.java");
 
-            if(cr.createNewFile())
+            if(cr.createNewFile()) //In order to create a file use the createNewFile() method.
             {
                 System.out.println("File created" + cr.getName());
 
