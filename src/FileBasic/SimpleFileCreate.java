@@ -2,7 +2,7 @@ package FileBasic;
 
 import java.io.File;
 
-public class FileCreate {
+public class SimpleFileCreate {
     public static void main(String[] args) {
 
         File fi = new File("helloJava.txt");

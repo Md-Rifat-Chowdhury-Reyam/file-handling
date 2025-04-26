@@ -6,29 +6,27 @@ import java.io.IOException;
 public class CreateFile {
 
     public static void main(String[] args) {
-
         try {
-            File newFile = new File("Rifat.text");
+            File cr = new File("java.java");
 
-
-            if(newFile.createNewFile())
+            if(cr.createNewFile())
             {
-                System.out.println("file creates "+ newFile.getName());
-                System.out.println(newFile.getAbsoluteFile());
+                System.out.println("File created" + cr.getName());
+
+                System.out.println(cr.getAbsoluteFile());
             }
             else
             {
-                System.out.println("file already exist");
-                System.out.println(newFile.getAbsoluteFile());
+                System.out.println("file already exits");
+                System.out.println(cr.getAbsoluteFile());
             }
+
         }
 
         catch (IOException e)
         {
-            System.out.println("error has occured");
-
+            System.out.println("error");
             e.printStackTrace();
         }
-
     }
 }
