@@ -6,8 +6,9 @@ import java.io.IOException;
 public class CreateFile {
 
     public static void main(String[] args) {
-        try {
-            File cr = new File("java.java");
+        try
+        {
+            File cr = new File("Rifat.java");
 
             if(cr.createNewFile()) //In order to create a file use the createNewFile() method.
             {
@@ -20,6 +21,7 @@ public class CreateFile {
                 System.out.println("file already exits");
                 System.out.println(cr.getAbsoluteFile());
             }
+
 
         }
 
