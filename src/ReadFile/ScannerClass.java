@@ -14,14 +14,20 @@ public class ScannerClass {
             String fileName = br.readLine();
 
             File file = new File(fileName);
+            Scanner sc = new Scanner(file);
 
             //2 way to read file
             //with loop
-            Scanner sc = new Scanner(file);
             while (sc.hasNextLine())
             {
                 System.out.println(sc.nextLine());
             }
+
+            System.out.println();
+
+            //without loop
+//            sc.useDelimiter("\\z");
+//            System.out.println(sc.next());
         }
         catch (IOException e)
         {
