@@ -1,4 +1,4 @@
-package FileBasic;
+package Basic;
 
 import java.io.File;
 

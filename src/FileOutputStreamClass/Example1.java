@@ -9,7 +9,7 @@ public class Example1 {
         System.out.println("Directory " + path);
 
         try {
-            FileOutputStream fc = new FileOutputStream("filehandling.txt", false);
+            FileOutputStream fc = new FileOutputStream("output.txt", false);
 
             String name = "\nRifat how are you?\n";
             fc.write(name.getBytes());// The getBytes() method used

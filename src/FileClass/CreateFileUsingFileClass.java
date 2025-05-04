@@ -57,7 +57,7 @@ class createF
 }
 //another way
 
-//import java.io.BufferedReader;
+//import java.io.BufferedReaderClass;
 //import java.io.File;
 //import java.io.IOException;
 //import java.io.InputStreamReader;
@@ -65,9 +65,9 @@ class createF
 //public class FileOpen {  // Class names should start with uppercase letter
 //
 //    public static void createFile() {  // More descriptive method name
-//        BufferedReader br = null;
+//        BufferedReaderClass br = null;
 //        try {
-//            br = new BufferedReader(new InputStreamReader(System.in));
+//            br = new BufferedReaderClass(new InputStreamReader(System.in));
 //
 //            System.out.println("Enter file name:");
 //            String fileName = br.readLine();

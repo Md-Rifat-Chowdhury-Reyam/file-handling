@@ -1,8 +1,6 @@
-package FileBasic;
+package Basic;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 
 public class DeleteFile {
     public static void main(String[] args) {
