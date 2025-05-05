@@ -1,1 +1,1 @@
-I am from buffered writer
+It is used to write raw stream data to a file.
