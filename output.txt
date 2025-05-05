@@ -1,1 +1,2 @@
-I am Rifat Chowdhury, from Bangladesh.
+If the content of the file is short,
+ then using the FileWriter class to write in the file is another better option. It also writes the stream of characters as the content of the file like writeString() method. The constructor of this class defines the default character encoding and the default buffer size in bytes.
