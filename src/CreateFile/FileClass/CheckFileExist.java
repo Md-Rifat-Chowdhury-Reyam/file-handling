@@ -1,4 +1,4 @@
-package FileClass;
+package CreateFile.FileClass;
 
 // In this Java program, we accept a file or directory name
 // from command line arguments. Then the program will check

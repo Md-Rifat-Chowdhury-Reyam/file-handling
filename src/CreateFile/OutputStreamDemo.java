@@ -1,4 +1,4 @@
-package FileOutputStreamClass;
+package CreateFile;
 
 import java.io.*;
 import java.io.OutputStream;

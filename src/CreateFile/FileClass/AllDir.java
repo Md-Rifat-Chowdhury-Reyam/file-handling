@@ -1,4 +1,4 @@
-package FileClass;
+package CreateFile.FileClass;
 
 // Java Program to display all
 // the contents of a directory

@@ -1,4 +1,4 @@
-package FileOutputStreamClass;
+package CreateFile;
 
 import java.io.BufferedReader;
 import java.io.FileOutputStream;
